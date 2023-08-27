@@ -1,0 +1,33 @@
+.maskedicon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.button {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.content,
+.varianttextSizemediumIc {
+  display: flex;
+  justify-content: flex-start;
+}
+.content {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.varianttextSizemediumIc {
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-7xs) var(--padding-5xs);
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--material-theme-body-medium-size);
+  color: var(--text-primary);
+  font-family: var(--material-theme-body-medium);
+}

@@ -1,0 +1,57 @@
+.avatarIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.avatar {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.label1 {
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+.label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+}
+.icon1 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+.icon,
+.inputaWAvataraEnabled {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.icon {
+  align-self: stretch;
+  width: 21px;
+  padding: 0 var(--padding-9xs) 0 0;
+  align-items: center;
+  justify-content: center;
+}
+.inputaWAvataraEnabled {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--surface-overlay);
+  height: 32px;
+  padding: var(--padding-9xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--material-theme-body-medium-size);
+  color: var(--text-primary);
+  font-family: var(--material-theme-body-medium);
+}

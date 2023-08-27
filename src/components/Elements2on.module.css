@@ -1,0 +1,53 @@
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 16px);
+  top: 0;
+  right: 8px;
+  bottom: 0;
+  left: 8px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+}
+.icon {
+  top: 8px;
+  left: 216px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.b,
+.icon,
+.vectorIcon {
+  position: absolute;
+}
+.vectorIcon {
+  height: 60%;
+  width: 9.38%;
+  top: 20%;
+  right: 84.38%;
+  bottom: 20%;
+  left: 6.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.b {
+  width: calc(100% - 105px);
+  top: calc(50% - 9px);
+  left: 64px;
+  letter-spacing: 0.1px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  height: 18px;
+}
+.elements2on {
+  position: relative;
+  width: 256px;
+  height: 40px;
+  text-align: left;
+  font-size: var(--material-theme-body-medium-size);
+  color: var(--color-gray-200);
+  font-family: var(--material-theme-body-medium);
+}

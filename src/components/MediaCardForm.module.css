@@ -1,0 +1,500 @@
+.bgIcon,
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bgIcon {
+  border-radius: var(--br-9xs);
+  width: 343px;
+  height: 788px;
+}
+.div {
+  letter-spacing: 0.4px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.groupChild,
+.groupInner,
+.groupItem,
+.rectangleDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lightgray);
+}
+.groupInner,
+.groupItem,
+.rectangleDiv {
+  width: 70.47%;
+  right: 29.53%;
+  background-color: var(--color-royalblue-100);
+}
+.groupInner,
+.rectangleDiv {
+  width: 32.28%;
+  right: 39.76%;
+  left: 27.95%;
+  background-color: var(--color-royalblue-300);
+}
+.rectangleDiv {
+  width: 43.7%;
+  right: 56.3%;
+  left: 0;
+  background-color: var(--color-midnightblue);
+}
+.rectangleParent {
+  position: absolute;
+  height: 15.38%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 84.62%;
+  left: 0;
+}
+.description {
+  position: absolute;
+  top: 0;
+  left: 16.82%;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.groupChild1 {
+  position: absolute;
+  height: 62.5%;
+  width: 9.35%;
+  top: 18.75%;
+  right: 90.65%;
+  bottom: 18.75%;
+  left: 0;
+  background-color: var(--color-royalblue-300);
+}
+.descriptionParent,
+.groupChild2 {
+  position: absolute;
+  height: 30.77%;
+  width: 34.63%;
+  top: 30.77%;
+  right: 25.57%;
+  bottom: 38.46%;
+  left: 39.81%;
+}
+.groupChild2 {
+  height: 62.5%;
+  width: 9.35%;
+  top: 18.75%;
+  right: 90.65%;
+  bottom: 18.75%;
+  left: 0;
+  background-color: var(--color-royalblue-100);
+}
+.descriptionGroup {
+  position: absolute;
+  height: 30.77%;
+  width: 34.63%;
+  top: 69.23%;
+  right: 65.37%;
+  bottom: 0;
+  left: 0;
+}
+.description2 {
+  position: absolute;
+  top: 0;
+  left: 20.22%;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.groupChild3 {
+  position: absolute;
+  height: 62.5%;
+  width: 11.24%;
+  top: 18.75%;
+  right: 88.76%;
+  bottom: 18.75%;
+  left: 0;
+  background-color: var(--color-lightgray);
+}
+.descriptionContainer {
+  position: absolute;
+  height: 30.77%;
+  width: 28.8%;
+  top: 69.23%;
+  right: 31.39%;
+  bottom: 0;
+  left: 39.81%;
+}
+.groupChild4,
+.groupDiv {
+  position: absolute;
+  left: 0;
+}
+.groupChild4 {
+  height: 62.5%;
+  width: 9.35%;
+  top: 18.75%;
+  right: 90.65%;
+  bottom: 18.75%;
+  background-color: var(--color-midnightblue);
+}
+.groupDiv {
+  height: 30.77%;
+  width: 34.63%;
+  top: 30.77%;
+  right: 65.37%;
+  bottom: 38.46%;
+}
+.groupChild5,
+.groupParent {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+.groupParent {
+  position: absolute;
+  height: 38.24%;
+  top: 61.76%;
+  left: 0;
+}
+.groupChild5 {
+  height: 100%;
+  background-color: var(--color-mediumpurple);
+}
+.groupChild5,
+.groupChild6,
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.groupChild6 {
+  height: 100%;
+  width: 43.7%;
+  right: 56.3%;
+  bottom: 0;
+  background-color: var(--color-blueviolet);
+}
+.rectangleGroup {
+  height: 25%;
+  width: 100%;
+  right: 0;
+  bottom: 75%;
+}
+.description4 {
+  position: absolute;
+  top: 0;
+  left: 23.68%;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.groupChild7 {
+  position: absolute;
+  height: 62.5%;
+  width: 13.16%;
+  top: 18.75%;
+  right: 86.84%;
+  bottom: 18.75%;
+  left: 0;
+  background-color: var(--color-mediumpurple);
+}
+.descriptionParent1,
+.groupChild8 {
+  position: absolute;
+  height: 50%;
+  width: 24.6%;
+  top: 50%;
+  right: 45.63%;
+  bottom: 0;
+  left: 29.77%;
+}
+.groupChild8 {
+  height: 62.5%;
+  width: 13.16%;
+  top: 18.75%;
+  right: 86.84%;
+  bottom: 18.75%;
+  left: 0;
+  background-color: var(--color-blueviolet);
+}
+.descriptionParent2,
+.groupContainer,
+.parent {
+  position: absolute;
+  height: 50%;
+  width: 24.6%;
+  top: 50%;
+  right: 75.4%;
+  bottom: 0;
+  left: 0;
+}
+.groupContainer,
+.parent {
+  height: 23.53%;
+  width: 100%;
+  top: 20.59%;
+  right: 0;
+  bottom: 55.88%;
+}
+.parent {
+  height: 17.26%;
+  width: 90.09%;
+  top: 16.24%;
+  right: 5.25%;
+  bottom: 66.5%;
+  left: 4.66%;
+}
+.image,
+.image1Icon {
+  position: absolute;
+  border-radius: var(--br-9xs);
+}
+.image {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--background);
+}
+.image1Icon {
+  height: 40%;
+  width: 88.28%;
+  top: 30%;
+  right: 5.46%;
+  bottom: 30%;
+  left: 6.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.imageParent {
+  position: absolute;
+  height: 7.11%;
+  width: 27.99%;
+  top: 7.11%;
+  right: 67.35%;
+  bottom: 85.79%;
+  left: 4.66%;
+}
+.title {
+  position: absolute;
+  height: 3.05%;
+  width: 54.52%;
+  top: 11.17%;
+  left: 36.15%;
+  font-size: var(--font-size-lg);
+  line-height: 140%;
+  display: inline-block;
+}
+.choiceChipbActiveWrapper {
+  position: absolute;
+  top: calc(50% - 338px);
+  left: 124px;
+  width: 110px;
+  height: 24px;
+}
+.button,
+.icon {
+  position: relative;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.unstyledbuttonChild {
+  position: relative;
+  background-color: var(--lightgray);
+  width: 1px;
+  height: 20px;
+}
+.unstyledbutton {
+  position: absolute;
+  top: calc(50% + 334px);
+  left: calc(50% - 155.5px);
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-xs) var(--padding-7xs)
+    var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  font-size: var(--material-theme-body-medium-size);
+}
+.p {
+  margin: 0;
+}
+.description6,
+.description7,
+.div2,
+.top3 {
+  position: absolute;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.description6 {
+  width: 90.67%;
+  top: 66.5%;
+  left: 4.66%;
+  display: inline-block;
+}
+.description7,
+.div2,
+.top3 {
+  top: 504px;
+  left: 16px;
+}
+.description7,
+.div2 {
+  top: 392px;
+}
+.description7 {
+  width: 90.67%;
+  top: 78.17%;
+  left: 4.66%;
+  display: inline-block;
+}
+.div3 {
+  top: 596px;
+  left: 16px;
+}
+.description8,
+.div3,
+.div4,
+.div5 {
+  position: absolute;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.description8 {
+  width: 90.67%;
+  top: 85.79%;
+  left: 4.66%;
+  display: inline-block;
+}
+.div4,
+.div5 {
+  top: 656px;
+  left: 16px;
+}
+.div5 {
+  top: 300px;
+}
+.description9,
+.vectorIcon {
+  position: absolute;
+  top: 287.5px;
+  left: 16px;
+  width: 311px;
+  height: 1px;
+}
+.description9 {
+  height: 6.09%;
+  width: 90.67%;
+  top: 40.61%;
+  left: 4.66%;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+  display: inline-block;
+}
+.groupChild9 {
+  position: absolute;
+  top: 643.5px;
+  left: 16px;
+  width: 311px;
+  height: 1px;
+}
+.bg,
+.groupChild10,
+.groupChild11,
+.groupChild12,
+.groupChild13 {
+  position: absolute;
+  top: 379.5px;
+  left: 16px;
+  width: 311px;
+  height: 1px;
+}
+.bg,
+.groupChild11,
+.groupChild12,
+.groupChild13 {
+  top: 491.5px;
+}
+.bg,
+.groupChild12,
+.groupChild13 {
+  top: 583.5px;
+}
+.bg,
+.groupChild13 {
+  top: 703.5px;
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  background-color: var(--lightgray);
+}
+.maskedIcon {
+  position: relative;
+  width: 16px;
+  height: 20px;
+  display: none;
+}
+.button1 {
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.content {
+  position: absolute;
+  top: 8px;
+  left: 273px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.bgGroup {
+  position: absolute;
+  height: 5.08%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 94.92%;
+  left: 0;
+  font-size: var(--material-theme-body-medium-size);
+}
+.bgParent {
+  position: absolute;
+  top: 1198px;
+  left: 16px;
+  width: 343px;
+  height: 788px;
+  text-align: left;
+  font-size: var(--material-theme-body-small-size);
+  color: var(--black);
+  font-family: var(--material-theme-body-medium);
+}

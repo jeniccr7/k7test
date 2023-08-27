@@ -1,0 +1,29 @@
+.b,
+.bg {
+  position: absolute;
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--linear-white);
+  border-bottom: 1px solid #e0e0e0;
+  box-sizing: border-box;
+}
+.b {
+  top: 30%;
+  left: 2.03%;
+  line-height: 32px;
+}
+.heading {
+  position: relative;
+  width: 1184px;
+  height: 80px;
+  text-align: left;
+  font-size: var(--material-theme-headline-small-size);
+  color: var(--black);
+  font-family: var(--material-theme-body-medium);
+}

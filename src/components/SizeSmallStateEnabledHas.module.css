@@ -1,0 +1,36 @@
+.label {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+}
+.container {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input,
+.sizesmallStateenabledHas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--light-other-outlined-border-23p);
+  padding: 0 var(--padding-xs);
+}
+.sizesmallStateenabledHas {
+  position: relative;
+  width: 220px;
+  text-align: left;
+  font-size: var(--components-input-text-size);
+  color: var(--light-text-secondary);
+  font-family: var(--material-theme-body-medium);
+}

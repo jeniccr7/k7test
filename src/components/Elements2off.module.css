@@ -1,0 +1,31 @@
+.div,
+.icon {
+  position: absolute;
+}
+.div {
+  width: calc(100% - 105px);
+  top: calc(50% - 9px);
+  left: 64px;
+  letter-spacing: 0.1px;
+  line-height: 21px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 18px;
+}
+.icon {
+  top: 8px;
+  left: 216px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.elements2off {
+  position: relative;
+  width: 256px;
+  height: 40px;
+  text-align: left;
+  font-size: var(--material-theme-body-medium-size);
+  color: var(--color-gray-200);
+  font-family: var(--material-theme-body-medium);
+}

@@ -1,0 +1,52 @@
+.base,
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black);
+}
+.groupChild {
+  background-color: var(--color-royalblue-200);
+}
+.div,
+.rectangleParent {
+  position: absolute;
+  top: 22.5%;
+  left: 32.97%;
+}
+.rectangleParent {
+  height: 83.33%;
+  width: 49.33%;
+  top: 29.17%;
+  right: -274.67%;
+  bottom: -12.5%;
+  left: 325.33%;
+  display: none;
+}
+.image1Icon {
+  position: absolute;
+  height: 58.33%;
+  width: 28%;
+  top: 20.83%;
+  right: 57.07%;
+  bottom: 20.83%;
+  left: 14.93%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.headerMypage {
+  position: relative;
+  background-color: var(--linear-white);
+  width: 375px;
+  height: 48px;
+  text-align: left;
+  font-size: var(--components-input-text-size);
+  color: var(--linear-white);
+  font-family: var(--font-noto-sans-jp);
+}

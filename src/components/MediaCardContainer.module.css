@@ -1,0 +1,519 @@
+.bg {
+  position: absolute;
+  height: 100.4%;
+  width: 100.18%;
+  top: -0.2%;
+  right: -0.09%;
+  bottom: -0.2%;
+  left: -0.09%;
+  border-radius: var(--br-9xs);
+  background-color: var(--linear-white);
+  border: 1px solid var(--lightgray);
+  box-sizing: border-box;
+}
+.button,
+.icon {
+  position: relative;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.unstyledbuttonChild {
+  position: relative;
+  background-color: var(--lightgray);
+  width: 1px;
+  height: 20px;
+}
+.unstyledbutton {
+  position: absolute;
+  top: calc(50% + 179.5px);
+  left: calc(50% + 142px);
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-5xl) var(--padding-7xs)
+    var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.bg1 {
+  position: absolute;
+  height: 100%;
+  width: 4.23%;
+  top: 0;
+  right: 95.77%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs) 0 0 var(--br-9xs);
+  background-color: var(--lightgray);
+}
+.maskedIcon {
+  position: relative;
+  width: 16px;
+  height: 20px;
+  display: none;
+}
+.button1 {
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.content,
+.title {
+  position: absolute;
+}
+.content {
+  top: 223px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.title {
+  width: 65.05%;
+  top: 13.74%;
+  left: 32.39%;
+  font-size: var(--font-size-lg);
+  line-height: 140%;
+  display: inline-block;
+}
+.image,
+.image2Icon {
+  position: absolute;
+  border-radius: var(--br-9xs);
+}
+.image {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--background);
+}
+.image2Icon {
+  height: 40%;
+  width: 88.28%;
+  top: 30.01%;
+  right: 5.46%;
+  bottom: 29.99%;
+  left: 6.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.imageParent {
+  position: absolute;
+  height: 28.28%;
+  width: 22.54%;
+  top: 6.46%;
+  right: 70.42%;
+  bottom: 65.25%;
+  left: 7.04%;
+}
+.choiceChipbActiveWrapper {
+  position: absolute;
+  top: calc(50% - 215.5px);
+  left: 368px;
+  width: 110px;
+  height: 24px;
+}
+.p {
+  margin: 0;
+}
+.description {
+  width: 23.06%;
+  top: 48.48%;
+  left: 52.02%;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  display: inline-block;
+}
+.description,
+.divider,
+.top3 {
+  position: absolute;
+}
+.top3 {
+  top: 52.53%;
+  left: 33.45%;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.divider {
+  height: 0.2%;
+  width: 64.79%;
+  top: 35.15%;
+  right: 2.82%;
+  bottom: 64.65%;
+  left: 32.39%;
+  background-color: var(--lightgray);
+}
+.divider1 {
+  position: absolute;
+  top: 63.03%;
+  bottom: 36.77%;
+}
+.divider1,
+.divider2,
+.divider3 {
+  height: 0.2%;
+  width: 64.79%;
+  right: 2.82%;
+  left: 32.39%;
+  background-color: var(--lightgray);
+}
+.divider2 {
+  position: absolute;
+  top: 72.12%;
+  bottom: 27.68%;
+}
+.divider3 {
+  top: 45.86%;
+  bottom: 53.94%;
+}
+.div1,
+.divider3,
+.divider4 {
+  position: absolute;
+}
+.divider4 {
+  height: 0.2%;
+  width: 64.79%;
+  top: 81.21%;
+  right: 2.82%;
+  bottom: 18.59%;
+  left: 32.39%;
+  background-color: var(--lightgray);
+}
+.div1 {
+  top: 26.67%;
+  left: 33.45%;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.description1,
+.div2 {
+  position: absolute;
+  top: 65.66%;
+}
+.div2 {
+  left: 33.45%;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.description1 {
+  left: 52.02%;
+  line-height: 140%;
+}
+.description2 {
+  height: 8.08%;
+  width: 44.1%;
+  top: 24.65%;
+  left: 52.02%;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  display: inline-block;
+}
+.description2,
+.div3,
+.divider5 {
+  position: absolute;
+}
+.div3 {
+  top: 38.59%;
+  left: 33.45%;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.divider5 {
+  height: 0.2%;
+  width: 64.79%;
+  top: 22.02%;
+  right: 2.82%;
+  bottom: 77.78%;
+  left: 32.39%;
+  background-color: var(--lightgray);
+}
+.description3,
+.div4,
+.div5 {
+  position: absolute;
+  top: 74.75%;
+}
+.div4 {
+  left: 33.45%;
+  letter-spacing: 0.46px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.description3,
+.div5 {
+  left: 52.02%;
+  line-height: 140%;
+}
+.div5 {
+  top: 37.98%;
+  left: 7.04%;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.groupChild,
+.groupInner,
+.groupItem,
+.rectangleDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lightgray);
+}
+.groupInner,
+.groupItem,
+.rectangleDiv {
+  width: 70.47%;
+  right: 29.53%;
+  background-color: var(--color-royalblue-100);
+}
+.groupInner,
+.rectangleDiv {
+  width: 32.28%;
+  right: 39.76%;
+  left: 27.95%;
+  background-color: var(--color-royalblue-300);
+}
+.rectangleDiv {
+  width: 43.7%;
+  right: 56.3%;
+  left: 0;
+  background-color: var(--color-midnightblue);
+}
+.rectangleParent {
+  position: absolute;
+  height: 15.38%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 84.62%;
+  left: 0;
+}
+.description4 {
+  position: absolute;
+  top: 0;
+  left: 16.82%;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.groupChild1 {
+  position: absolute;
+  height: 62.5%;
+  width: 9.35%;
+  top: 18.75%;
+  right: 90.65%;
+  bottom: 18.75%;
+  left: 0;
+  background-color: var(--color-royalblue-300);
+}
+.descriptionParent,
+.groupChild2 {
+  position: absolute;
+  height: 30.77%;
+  width: 41.8%;
+  top: 30.77%;
+  right: 10.16%;
+  bottom: 38.46%;
+  left: 48.05%;
+}
+.groupChild2 {
+  height: 62.5%;
+  width: 9.35%;
+  top: 18.75%;
+  right: 90.65%;
+  bottom: 18.75%;
+  left: 0;
+  background-color: var(--color-royalblue-100);
+}
+.descriptionGroup {
+  position: absolute;
+  height: 30.77%;
+  width: 41.8%;
+  top: 69.23%;
+  right: 58.2%;
+  bottom: 0;
+  left: 0;
+}
+.description6 {
+  position: absolute;
+  top: 0;
+  left: 20.22%;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.groupChild3 {
+  position: absolute;
+  height: 62.5%;
+  width: 11.24%;
+  top: 18.75%;
+  right: 88.76%;
+  bottom: 18.75%;
+  left: 0;
+  background-color: var(--color-lightgray);
+}
+.descriptionContainer,
+.groupChild4 {
+  position: absolute;
+  height: 30.77%;
+  width: 34.77%;
+  top: 69.23%;
+  right: 17.19%;
+  bottom: 0;
+  left: 48.05%;
+}
+.groupChild4 {
+  height: 62.5%;
+  width: 9.35%;
+  top: 18.75%;
+  right: 90.65%;
+  bottom: 18.75%;
+  left: 0;
+  background-color: var(--color-midnightblue);
+}
+.groupDiv,
+.groupParent {
+  position: absolute;
+  height: 30.77%;
+  width: 41.8%;
+  top: 30.77%;
+  right: 58.2%;
+  bottom: 38.46%;
+  left: 0;
+}
+.groupParent {
+  height: 10.51%;
+  width: 22.54%;
+  top: 56.57%;
+  right: 70.42%;
+  bottom: 32.93%;
+  left: 7.04%;
+  font-size: var(--material-theme-body-small-size);
+}
+.groupChild5 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-mediumpurple);
+}
+.groupChild5,
+.groupChild6,
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.groupChild6 {
+  height: 100%;
+  width: 43.7%;
+  right: 56.3%;
+  bottom: 0;
+  background-color: var(--color-blueviolet);
+}
+.rectangleGroup {
+  height: 25%;
+  width: 100%;
+  right: 0;
+  bottom: 75%;
+}
+.description8 {
+  position: absolute;
+  top: 0;
+  left: 23.68%;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.groupChild7 {
+  position: absolute;
+  height: 62.5%;
+  width: 13.16%;
+  top: 18.75%;
+  right: 86.84%;
+  bottom: 18.75%;
+  left: 0;
+  background-color: var(--color-mediumpurple);
+}
+.descriptionParent1,
+.groupChild8 {
+  position: absolute;
+  height: 50%;
+  width: 29.69%;
+  top: 50%;
+  right: 34.38%;
+  bottom: 0;
+  left: 35.94%;
+}
+.groupChild8 {
+  height: 62.5%;
+  width: 13.16%;
+  top: 18.75%;
+  right: 86.84%;
+  bottom: 18.75%;
+  left: 0;
+  background-color: var(--color-blueviolet);
+}
+.descriptionParent2 {
+  position: absolute;
+  height: 50%;
+  width: 29.69%;
+  top: 50%;
+  right: 70.31%;
+  bottom: 0;
+  left: 0;
+}
+.bgParent,
+.groupContainer {
+  position: absolute;
+  height: 6.46%;
+  width: 22.54%;
+  top: 45.25%;
+  right: 70.42%;
+  bottom: 48.28%;
+  left: 7.04%;
+  font-size: var(--material-theme-body-small-size);
+}
+.bgParent {
+  height: 23.89%;
+  width: 78.89%;
+  top: 74.47%;
+  right: 1.67%;
+  bottom: 1.64%;
+  left: 19.44%;
+  text-align: left;
+  font-size: var(--material-theme-body-medium-size);
+  color: var(--black);
+  font-family: var(--material-theme-body-medium);
+}

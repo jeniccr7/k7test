@@ -1,0 +1,10 @@
+.sizesmallIconLeftfalseI {
+  position: relative;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--light-primary-shades-50p);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
